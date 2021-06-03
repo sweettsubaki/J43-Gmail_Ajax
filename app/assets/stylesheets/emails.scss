@@ -1,0 +1,84 @@
+@import 'bootstrap';
+
+
+div.page {
+  @extend .container;
+}
+
+div.page__head, div.page__main {
+  @extend .row;
+}
+
+div.page__side {
+  @extend .col-md-4;
+}
+
+div.page__content {
+  @extend .col-md-8;
+}
+
+ul.email-list {
+  @extend .list-group, .border, .border-primary;
+}
+
+li.email-item {
+  @extend .list-group-item, .list-group-item-action;
+}
+
+button#newFakeEmail {
+  @extend .btn, .btn-info, .m-3;
+}
+
+button.email-delete {
+  @extend .btn, .btn-danger;
+}
+button.email-update {
+  @extend .btn;
+}
+button.email-update--read {
+  @extend .btn-info;
+}
+button.email-update--unread {
+  @extend .btn-success;
+}
+
+.email-details {
+  @extend .p-4, .border;
+}
+.email-details--read {
+  @extend .border-dark;
+}
+.email-details--unread {
+  @extend .border-primary;
+}
+
+.email-details--unread .email-object{
+  @extend .text-primary;
+}
+
+.email-details--read .email-update--unread {
+  display: none;
+}
+.email-details--unread .email-update--read {
+  display: none;
+}
+
+.email-object {
+  font-size: 2em;
+}
+
+
+.email-item--unread {
+  @extend .text-primary;
+  font-weight: bolder;
+}
+.email-item--unread.email-item--selected {
+  @extend .text-white, .bg-primary;
+}
+.email-item--read {
+  @extend .text-secondary;
+  font-weight: lighter;
+}
+.email-item--read.email-item--selected {
+  @extend .text-white, .bg-secondary;
+}

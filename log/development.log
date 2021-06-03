@@ -1,0 +1,1033 @@
+Started GET "/" for 127.0.0.1 at 2021-06-03 16:54:38 +0200
+  
+ActiveRecord::NoDatabaseError (FATAL:  database "Gmail-Like_development" does not exist
+):
+  
+activerecord (5.2.3) lib/active_record/connection_adapters/postgresql_adapter.rb:696:in `rescue in connect'
+activerecord (5.2.3) lib/active_record/connection_adapters/postgresql_adapter.rb:691:in `connect'
+activerecord (5.2.3) lib/active_record/connection_adapters/postgresql_adapter.rb:223:in `initialize'
+activerecord (5.2.3) lib/active_record/connection_adapters/postgresql_adapter.rb:48:in `new'
+activerecord (5.2.3) lib/active_record/connection_adapters/postgresql_adapter.rb:48:in `postgresql_connection'
+activerecord (5.2.3) lib/active_record/connection_adapters/abstract/connection_pool.rb:811:in `new_connection'
+activerecord (5.2.3) lib/active_record/connection_adapters/abstract/connection_pool.rb:855:in `checkout_new_connection'
+activerecord (5.2.3) lib/active_record/connection_adapters/abstract/connection_pool.rb:834:in `try_to_checkout_new_connection'
+activerecord (5.2.3) lib/active_record/connection_adapters/abstract/connection_pool.rb:795:in `acquire_connection'
+activerecord (5.2.3) lib/active_record/connection_adapters/abstract/connection_pool.rb:523:in `checkout'
+activerecord (5.2.3) lib/active_record/connection_adapters/abstract/connection_pool.rb:382:in `connection'
+activerecord (5.2.3) lib/active_record/connection_adapters/abstract/connection_pool.rb:1014:in `retrieve_connection'
+activerecord (5.2.3) lib/active_record/connection_handling.rb:118:in `retrieve_connection'
+activerecord (5.2.3) lib/active_record/connection_handling.rb:90:in `connection'
+activerecord (5.2.3) lib/active_record/migration.rb:554:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+activesupport (5.2.3) lib/active_support/callbacks.rb:98:in `run_callbacks'
+actionpack (5.2.3) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:61:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.3) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.3) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.3) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.2) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.3) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+railties (5.2.3) lib/rails/engine.rb:524:in `call'
+puma (3.12.6) lib/puma/configuration.rb:227:in `call'
+puma (3.12.6) lib/puma/server.rb:706:in `handle_request'
+puma (3.12.6) lib/puma/server.rb:476:in `process_client'
+puma (3.12.6) lib/puma/server.rb:334:in `block in run'
+puma (3.12.6) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started GET "/" for 127.0.0.1 at 2021-06-03 16:54:50 +0200
+  
+ActiveRecord::NoDatabaseError (FATAL:  database "Gmail-Like_development" does not exist
+):
+  
+activerecord (5.2.3) lib/active_record/connection_adapters/postgresql_adapter.rb:696:in `rescue in connect'
+activerecord (5.2.3) lib/active_record/connection_adapters/postgresql_adapter.rb:691:in `connect'
+activerecord (5.2.3) lib/active_record/connection_adapters/postgresql_adapter.rb:223:in `initialize'
+activerecord (5.2.3) lib/active_record/connection_adapters/postgresql_adapter.rb:48:in `new'
+activerecord (5.2.3) lib/active_record/connection_adapters/postgresql_adapter.rb:48:in `postgresql_connection'
+activerecord (5.2.3) lib/active_record/connection_adapters/abstract/connection_pool.rb:811:in `new_connection'
+activerecord (5.2.3) lib/active_record/connection_adapters/abstract/connection_pool.rb:855:in `checkout_new_connection'
+activerecord (5.2.3) lib/active_record/connection_adapters/abstract/connection_pool.rb:834:in `try_to_checkout_new_connection'
+activerecord (5.2.3) lib/active_record/connection_adapters/abstract/connection_pool.rb:795:in `acquire_connection'
+activerecord (5.2.3) lib/active_record/connection_adapters/abstract/connection_pool.rb:523:in `checkout'
+activerecord (5.2.3) lib/active_record/connection_adapters/abstract/connection_pool.rb:382:in `connection'
+activerecord (5.2.3) lib/active_record/connection_adapters/abstract/connection_pool.rb:1014:in `retrieve_connection'
+activerecord (5.2.3) lib/active_record/connection_handling.rb:118:in `retrieve_connection'
+activerecord (5.2.3) lib/active_record/connection_handling.rb:90:in `connection'
+activerecord (5.2.3) lib/active_record/migration.rb:554:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+activesupport (5.2.3) lib/active_support/callbacks.rb:98:in `run_callbacks'
+actionpack (5.2.3) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:61:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.3) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.3) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.3) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.2) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.3) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+railties (5.2.3) lib/rails/engine.rb:524:in `call'
+puma (3.12.6) lib/puma/configuration.rb:227:in `call'
+puma (3.12.6) lib/puma/server.rb:706:in `handle_request'
+puma (3.12.6) lib/puma/server.rb:476:in `process_client'
+puma (3.12.6) lib/puma/server.rb:334:in `block in run'
+puma (3.12.6) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+  [1m[35m (1157.5ms)[0m  [1m[35mCREATE DATABASE "Gmail-Like_development" ENCODING = 'unicode'[0m
+  ↳ bin/rails:9
+  [1m[35m (827.3ms)[0m  [1m[35mCREATE DATABASE "Gmail-Like_test" ENCODING = 'unicode'[0m
+  ↳ bin/rails:9
+  [1m[35m (235.9ms)[0m  [1m[35mCREATE TABLE "schema_migrations" ("version" character varying NOT NULL PRIMARY KEY)[0m
+  ↳ bin/rails:9
+  [1m[35m (148.6ms)[0m  [1m[35mCREATE TABLE "ar_internal_metadata" ("key" character varying NOT NULL PRIMARY KEY, "value" character varying, "created_at" timestamp NOT NULL, "updated_at" timestamp NOT NULL)[0m
+  ↳ bin/rails:9
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT pg_try_advisory_lock(4283054633658989685)[0m
+  ↳ bin/rails:9
+  [1m[35m (0.7ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ bin/rails:9
+Migrating to DeviseCreateUsers (20210304084101)
+  [1m[35m (0.5ms)[0m  [1m[35mBEGIN[0m
+  ↳ bin/rails:9
+  [1m[35m (150.1ms)[0m  [1m[35mCREATE TABLE "users" ("id" bigserial primary key, "email" character varying DEFAULT '' NOT NULL, "encrypted_password" character varying DEFAULT '' NOT NULL, "reset_password_token" character varying, "reset_password_sent_at" timestamp, "remember_created_at" timestamp, "created_at" timestamp NOT NULL, "updated_at" timestamp NOT NULL)[0m
+  ↳ db/migrate/20210304084101_devise_create_users.rb:5
+  [1m[35m (80.7ms)[0m  [1m[35mCREATE UNIQUE INDEX  "index_users_on_email" ON "users"  ("email")[0m
+  ↳ db/migrate/20210304084101_devise_create_users.rb:39
+  [1m[35m (33.3ms)[0m  [1m[35mCREATE UNIQUE INDEX  "index_users_on_reset_password_token" ON "users"  ("reset_password_token")[0m
+  ↳ db/migrate/20210304084101_devise_create_users.rb:40
+  [1m[36mActiveRecord::SchemaMigration Create (0.8ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES ($1) RETURNING "version"[0m  [["version", "20210304084101"]]
+  ↳ bin/rails:9
+  [1m[35m (16.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ bin/rails:9
+Migrating to AddColumnsToUsers (20210304140529)
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  ↳ bin/rails:9
+  [1m[35m (0.8ms)[0m  [1m[35mALTER TABLE "users" ADD "first_name" character varying[0m
+  ↳ db/migrate/20210304140529_add_columns_to_users.rb:3
+  [1m[35m (0.5ms)[0m  [1m[35mALTER TABLE "users" ADD "last_name" character varying[0m
+  ↳ db/migrate/20210304140529_add_columns_to_users.rb:4
+  [1m[36mActiveRecord::SchemaMigration Create (0.4ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES ($1) RETURNING "version"[0m  [["version", "20210304140529"]]
+  ↳ bin/rails:9
+  [1m[35m (5.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ bin/rails:9
+Migrating to CreateEmails (20210304140653)
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  ↳ bin/rails:9
+  [1m[35m (109.8ms)[0m  [1m[35mCREATE TABLE "emails" ("id" bigserial primary key, "object" character varying, "body" character varying, "created_at" timestamp NOT NULL, "updated_at" timestamp NOT NULL)[0m
+  ↳ db/migrate/20210304140653_create_emails.rb:3
+  [1m[36mActiveRecord::SchemaMigration Create (0.5ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES ($1) RETURNING "version"[0m  [["version", "20210304140653"]]
+  ↳ bin/rails:9
+  [1m[35m (16.5ms)[0m  [1m[35mCOMMIT[0m
+  ↳ bin/rails:9
+Migrating to AddReadColumnToEmails (20210304140818)
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ bin/rails:9
+  [1m[35m (0.6ms)[0m  [1m[35mALTER TABLE "emails" ADD "read" boolean DEFAULT FALSE[0m
+  ↳ db/migrate/20210304140818_add_read_column_to_emails.rb:3
+  [1m[36mActiveRecord::SchemaMigration Create (0.4ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES ($1) RETURNING "version"[0m  [["version", "20210304140818"]]
+  ↳ bin/rails:9
+  [1m[35m (6.9ms)[0m  [1m[35mCOMMIT[0m
+  ↳ bin/rails:9
+  [1m[36mActiveRecord::InternalMetadata Load (0.3ms)[0m  [1m[34mSELECT  "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1 LIMIT $2[0m  [["key", "environment"], ["LIMIT", 1]]
+  ↳ bin/rails:9
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ bin/rails:9
+  [1m[36mActiveRecord::InternalMetadata Create (0.7ms)[0m  [1m[32mINSERT INTO "ar_internal_metadata" ("key", "value", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "key"[0m  [["key", "environment"], ["value", "development"], ["created_at", "2021-06-03 14:55:48.035770"], ["updated_at", "2021-06-03 14:55:48.035770"]]
+  ↳ bin/rails:9
+  [1m[35m (5.2ms)[0m  [1m[35mCOMMIT[0m
+  ↳ bin/rails:9
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT pg_advisory_unlock(4283054633658989685)[0m
+  ↳ bin/rails:9
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ bin/rails:9
+  [1m[35m (0.8ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ bin/rails:9
+  [1m[36mEmail Load (0.8ms)[0m  [1m[34mSELECT "emails".* FROM "emails"[0m
+  ↳ db/seeds.rb:9
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/models/email.rb:3
+  [1m[36mEmail Create (0.8ms)[0m  [1m[32mINSERT INTO "emails" ("object", "body", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["object", "Sometimes good is not good enough."], ["body", "Natus beatae facere. Rem accusamus omnis. Corporis sunt autem. Dolorem sint nisi. Vitae dolores laboriosam. Aut cupiditate vel. Alias at omnis. Sed non quia. Sit enim vero. In fugit aspernatur. Fugit iure et. Sed itaque mollitia. Velit minus suscipit. Distinctio ab possimus. Laborum perspiciatis laboriosam. Et voluptatibus et. Sint maiores et. Exercitationem dolorem assumenda. Omnis itaque voluptatum. Perferendis odit omnis. Quidem aut hic. Pariatur assumenda impedit. Cum expedita minus. Dolorem nulla a. Saepe sapiente aspernatur. Ab et nemo. Tempore optio aut. A voluptas accusantium. Voluptas ipsum ut. Molestias asperiores tempore. Unde fugit illum. Ducimus dolor cupiditate. Voluptas fugiat est. Veritatis voluptates quis. Et ad et. Iste quia deserunt. Deserunt velit cupiditate. Non soluta perspiciatis. Est nemo incidunt. Id ipsum blanditiis."], ["created_at", "2021-06-03 14:55:57.977266"], ["updated_at", "2021-06-03 14:55:57.977266"]]
+  ↳ app/models/email.rb:3
+  [1m[35m (10.6ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/models/email.rb:3
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/models/email.rb:3
+  [1m[36mEmail Create (0.5ms)[0m  [1m[32mINSERT INTO "emails" ("object", "body", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["object", "I don't play the odds, I play the man."], ["body", "Consequatur ut libero. Voluptate non praesentium. Earum est itaque. Libero dignissimos aliquid. Numquam unde sunt. Beatae rerum cum. Tenetur aspernatur quisquam. Voluptas magnam doloremque. Laudantium tempore ea. Inventore sit nulla. Autem saepe ut. Sunt beatae dolores. Provident et voluptates. Mollitia ipsam dignissimos. Sit velit iste. Reiciendis quam eaque. Impedit et sint. Mollitia aliquam et. Hic dignissimos eveniet. Facere laborum id. Explicabo voluptatem quam. Architecto ipsum praesentium. Aut atque minus. Ea asperiores corrupti. A magnam aut. Distinctio et illum. Qui rerum aut. At eum non. Aut ut eaque. Quam vel molestias. Incidunt ut maiores. Ut ipsum aut. Eligendi consequatur ullam. Eos illum beatae. Velit quia fugiat. Nisi neque eaque. Est nostrum esse. Pariatur aliquam adipisci. Ut iure voluptatem. Repudiandae sit eos."], ["created_at", "2021-06-03 14:55:58.018327"], ["updated_at", "2021-06-03 14:55:58.018327"]]
+  ↳ app/models/email.rb:3
+  [1m[35m (6.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/models/email.rb:3
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/models/email.rb:3
+  [1m[36mEmail Create (0.4ms)[0m  [1m[32mINSERT INTO "emails" ("object", "body", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["object", "When you’re backed against the wall, break the goddamn thing down."], ["body", "Adipisci et sed. Deleniti voluptatum facere. Et aut sint. Iusto quam et. Vero itaque asperiores. Nostrum qui aperiam. Dignissimos eveniet quo. Distinctio dolores facilis. Molestiae magni sed. Dolor facilis dolores. Amet quis ratione. Qui aut quia. Ea dicta et. Dolor placeat esse. Adipisci sit itaque. Sed minima laboriosam. Voluptas aut quis. Autem et qui. Sed rem et. Quidem esse amet. Modi et deleniti. Aut hic itaque. Aspernatur excepturi perspiciatis. Dolores qui temporibus. Et qui quidem. Ipsum placeat in. Eius illum quia. Quia voluptate nihil. Sint impedit quo. Excepturi impedit molestiae. Nihil voluptatem aliquam. Sunt omnis magnam. Facere iusto omnis. Quam ut et. Nesciunt odio ea. Eaque saepe fugit. At dignissimos molestiae. Quae qui aliquid. Dolorem et consequuntur. Sunt placeat in."], ["created_at", "2021-06-03 14:55:58.038711"], ["updated_at", "2021-06-03 14:55:58.038711"]]
+  ↳ app/models/email.rb:3
+  [1m[35m (10.6ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/models/email.rb:3
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/models/email.rb:3
+  [1m[36mEmail Create (0.5ms)[0m  [1m[32mINSERT INTO "emails" ("object", "body", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["object", "But I’d never thought in million years, that I’d meet someone dumb enough to go to prison for me."], ["body", "Totam harum minima. Ut ipsam non. Minus delectus occaecati. Non illum sint. Nobis omnis doloribus. Ducimus mollitia consequatur. Laborum fugiat natus. Nihil tempora omnis. Sequi qui voluptatum. Reprehenderit sint ut. Sint qui mollitia. Consequatur ullam et. Ea aut explicabo. Magnam vel commodi. Repellendus perspiciatis ea. Culpa sit temporibus. Nesciunt rem ipsum. Omnis aliquam quo. Architecto totam porro. Aut sed quibusdam. Numquam ab quis. Quo earum ea. Praesentium quo quia. Rerum aliquid quia. Veritatis atque officia. Incidunt animi sit. Perspiciatis sed maxime. Dicta natus et. Magnam dolor expedita. Quidem assumenda laudantium. Non et ea. Quo rem qui. Fugiat et doloribus. Aut iusto atque. Maiores ut repellendus. Et et qui. Eum possimus aut. Amet est nulla. Doloribus autem pariatur. Aut id accusantium."], ["created_at", "2021-06-03 14:55:58.062320"], ["updated_at", "2021-06-03 14:55:58.062320"]]
+  ↳ app/models/email.rb:3
+  [1m[35m (10.6ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/models/email.rb:3
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/models/email.rb:3
+  [1m[36mEmail Create (0.5ms)[0m  [1m[32mINSERT INTO "emails" ("object", "body", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["object", "I dont respond to threats. I make them."], ["body", "Magni qui qui. Quisquam animi quis. Sint maxime asperiores. Quibusdam et cupiditate. Velit assumenda atque. Dolorum laudantium blanditiis. Aut et non. Qui voluptatem ducimus. Dolor non illo. Cumque dolor exercitationem. In possimus omnis. Quo tempora hic. Saepe officiis ut. Adipisci corporis eos. Doloribus molestiae et. Qui omnis nisi. Id dolor sit. Incidunt mollitia voluptates. Tenetur quas tempora. Inventore voluptatem fugiat. Dolor libero totam. Quis mollitia sapiente. Et nam fuga. Quia quaerat nam. Reprehenderit distinctio sed. Consectetur maiores inventore. Vel sed voluptatibus. Aut voluptatum omnis. Sed quia deleniti. Doloremque dignissimos eum. Eveniet dolor sint. Consequatur magnam facere. Odio iure et. Eius id architecto. Qui nam veritatis. Incidunt suscipit est. In voluptatem quia. Molestiae ut assumenda. Aut enim et. Consequatur alias cum."], ["created_at", "2021-06-03 14:55:58.086686"], ["updated_at", "2021-06-03 14:55:58.086686"]]
+  ↳ app/models/email.rb:3
+  [1m[35m (10.3ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/models/email.rb:3
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/models/email.rb:3
+  [1m[36mEmail Create (0.6ms)[0m  [1m[32mINSERT INTO "emails" ("object", "body", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["object", "When you work with tigers, once in a while they are going to take a swipe at you."], ["body", "Perferendis ratione voluptates. Explicabo sed deserunt. Sint rerum odio. Qui laudantium accusantium. Rem aspernatur et. Corporis voluptas quo. Modi dolorum et. Ea eos autem. Inventore ducimus et. Nisi eligendi sint. Officia dolores praesentium. Officia consequatur itaque. Consequatur maiores ipsa. Et cumque iusto. Autem maiores ex. Sunt officia dolor. Aut aut qui. Id dignissimos consequatur. Libero ipsum modi. Quidem iure voluptas. Impedit blanditiis aut. Qui laborum magnam. Quasi ad vel. Excepturi omnis consequatur. Omnis et doloremque. Vel commodi fuga. Tempore tempora ut. Ut natus porro. Natus repudiandae rerum. Ut vel nihil. Animi culpa a. Labore id quia. Eligendi et incidunt. Sunt voluptatum consequuntur. Labore omnis mollitia. Sit ea dolore. Necessitatibus deserunt consequatur. Doloribus cupiditate non. Distinctio praesentium dolores. Nemo placeat fugiat."], ["created_at", "2021-06-03 14:55:58.111315"], ["updated_at", "2021-06-03 14:55:58.111315"]]
+  ↳ app/models/email.rb:3
+  [1m[35m (11.1ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/models/email.rb:3
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/models/email.rb:3
+  [1m[36mEmail Create (0.5ms)[0m  [1m[32mINSERT INTO "emails" ("object", "body", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["object", "I’m Moby goddamn Dick, and you just swam in my waters"], ["body", "Alias sapiente facilis. Culpa et sunt. Rerum reiciendis aspernatur. Quisquam est soluta. A sequi blanditiis. Exercitationem aperiam ullam. Animi tempora amet. Autem assumenda qui. Asperiores quidem sit. Porro est maxime. Velit quis quos. Et aliquid vero. Voluptas distinctio ipsam. Eius quasi est. Nesciunt sequi delectus. In quia est. Voluptas quos aspernatur. Nemo aut voluptatum. Perferendis adipisci quaerat. Occaecati aut quo. Reiciendis dolores dicta. Consequatur enim aliquam. Rerum reprehenderit dolorem. Itaque magni et. Aut nostrum nam. Soluta dignissimos aliquid. Tempora ipsa et. Eum labore enim. Exercitationem molestiae non. Quas et eum. Eveniet voluptatem temporibus. Odio sed rerum. Temporibus minima rem. Veritatis qui fugiat. Sit incidunt ratione. Ut optio vel. Esse facere voluptates. Ut ex perferendis. Cum optio assumenda. Et rerum optio."], ["created_at", "2021-06-03 14:55:58.155995"], ["updated_at", "2021-06-03 14:55:58.155995"]]
+  ↳ app/models/email.rb:3
+  [1m[35m (13.1ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/models/email.rb:3
+  [1m[35m (0.4ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/models/email.rb:3
+  [1m[36mEmail Create (0.5ms)[0m  [1m[32mINSERT INTO "emails" ("object", "body", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["object", "I dont respond to threats. I make them."], ["body", "Et non consequatur. Omnis assumenda velit. Aut sit quia. Minus delectus quisquam. Veniam explicabo est. Sit totam quaerat. Omnis aut ut. Debitis quod omnis. Officia rerum sed. Voluptatem ut aut. Enim ut temporibus. Officia et corporis. Animi eos quae. Sed sit voluptatem. Qui eos consequatur. Molestiae magnam cupiditate. Recusandae odit corporis. Omnis unde atque. Beatae amet vitae. Est sed quam. Atque recusandae aspernatur. Aperiam distinctio provident. Minus culpa ducimus. Accusamus laudantium expedita. Dolorem recusandae vero. Dolore quasi at. Repudiandae voluptate deleniti. Maiores quis amet. Deleniti autem illo. Optio maxime esse. Ipsum quis nesciunt. Nostrum distinctio ducimus. Molestiae fuga qui. Voluptas molestiae omnis. Quia aliquid et. Sed magni illo. Qui repellat est. Mollitia accusamus sit. Aspernatur ea omnis. Voluptas aut rerum."], ["created_at", "2021-06-03 14:55:58.214498"], ["updated_at", "2021-06-03 14:55:58.214498"]]
+  ↳ app/models/email.rb:3
+  [1m[35m (12.5ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/models/email.rb:3
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/models/email.rb:3
+  [1m[36mEmail Create (1.1ms)[0m  [1m[32mINSERT INTO "emails" ("object", "body", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["object", "I don't have dreams, I have goals."], ["body", "Est sed fuga. Sint qui sed. Sit necessitatibus doloribus. Nam qui et. Velit neque nostrum. Doloribus ipsam facilis. Autem voluptatem repellendus. Ea voluptas corporis. Dolores et atque. Sit veniam voluptatem. Nihil deserunt suscipit. Dolorem quibusdam nesciunt. Maiores neque cumque. Harum voluptatem suscipit. Animi qui quis. Temporibus possimus cum. Fugiat ducimus similique. Harum eveniet eaque. Quo dolore eum. Eum nemo qui. Consequatur neque ea. Quam qui consequuntur. Omnis enim et. Eos est minima. Harum doloremque tempore. Quod earum nemo. Quo aut molestiae. Velit omnis enim. Necessitatibus cum ipsum. Velit doloremque sed. Eligendi ut laboriosam. A nostrum ab. Et inventore aspernatur. Dolor saepe tenetur. Modi voluptate aperiam. Tempora aut est. Iure reiciendis explicabo. Temporibus accusantium saepe. Dolores minima sunt. Exercitationem qui quaerat."], ["created_at", "2021-06-03 14:55:58.255293"], ["updated_at", "2021-06-03 14:55:58.255293"]]
+  ↳ app/models/email.rb:3
+  [1m[35m (9.0ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/models/email.rb:3
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/models/email.rb:3
+  [1m[36mEmail Create (0.4ms)[0m  [1m[32mINSERT INTO "emails" ("object", "body", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["object", "You just got Litt up!"], ["body", "Praesentium quisquam voluptas. Non voluptatem distinctio. Animi sunt totam. Magni dolor vitae. Est sit facere. Dolor ratione amet. Cum voluptatem tempora. Fugiat deserunt necessitatibus. Laudantium adipisci debitis. Nemo modi atque. Natus qui et. Sit delectus veniam. Dolores nisi aut. Incidunt rem cupiditate. Inventore ex natus. Doloribus repellat quia. Neque at repellat. In error maiores. Eaque architecto est. Doloribus veritatis recusandae. Dolorem at officiis. Magnam quibusdam dignissimos. Aspernatur et nihil. Quia temporibus error. Quasi laborum enim. Corporis velit autem. Ea non delectus. Ducimus ea quod. At doloribus maiores. Libero voluptatem ut. Excepturi sunt totam. Voluptatem perferendis excepturi. Ullam maiores dolor. Ut molestiae maxime. Et officiis sapiente. Totam quaerat doloremque. Suscipit dolorum illum. Aperiam excepturi id. Illo placeat nobis. Iste totam maiores."], ["created_at", "2021-06-03 14:55:58.285507"], ["updated_at", "2021-06-03 14:55:58.285507"]]
+  ↳ app/models/email.rb:3
+  [1m[35m (3.7ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/models/email.rb:3
+  [1m[35m (0.7ms)[0m  [1m[34mSELECT COUNT(*) FROM "emails"[0m
+  ↳ db/seeds.rb:14
+Started GET "/" for 127.0.0.1 at 2021-06-03 16:56:12 +0200
+  [1m[35m (1.0ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /home/celia/.rvm/gems/ruby-2.7.1/gems/activerecord-5.2.3/lib/active_record/log_subscriber.rb:98
+Processing by EmailsController#index as HTML
+  [1m[36mEmail Load (0.6ms)[0m  [1m[34mSELECT "emails".* FROM "emails"[0m
+  ↳ app/controllers/emails_controller.rb:14
+  Rendering emails/index.html.erb within layouts/application
+  Rendered collection of emails/_item.html.erb [10 times] (1.8ms)
+  Rendered emails/_list.html.erb (2.9ms)
+  Rendered emails/index.html.erb within layouts/application (8.9ms)
+  Rendered shared/_navbar.html.erb (7.4ms)
+  Rendered shared/_jumbotron.html.erb (0.4ms)
+  Rendered shared/_alerts.html.erb (0.5ms)
+  Rendered shared/_footer.html.erb (0.2ms)
+  Rendering layouts/main.html.erb
+  Rendered layouts/main.html.erb (11724.1ms)
+Completed 200 OK in 11779ms (Views: 11750.3ms | ActiveRecord: 5.2ms)
+
+
+Started GET "/emails/9" for 127.0.0.1 at 2021-06-03 16:56:33 +0200
+Processing by EmailsController#show as JS
+  Parameters: {"id"=>"9"}
+  [1m[36mEmail Load (0.6ms)[0m  [1m[34mSELECT  "emails".* FROM "emails" WHERE "emails"."id" = $1 LIMIT $2[0m  [["id", 9], ["LIMIT", 1]]
+  ↳ app/controllers/emails_controller.rb:4
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/emails_controller.rb:5
+  [1m[36mEmail Update (0.6ms)[0m  [1m[33mUPDATE "emails" SET "read" = $1, "updated_at" = $2 WHERE "emails"."id" = $3[0m  [["read", true], ["updated_at", "2021-06-03 14:56:33.506044"], ["id", 9]]
+  ↳ app/controllers/emails_controller.rb:5
+  [1m[35m (75.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/emails_controller.rb:5
+  Rendering emails/show.js.erb
+  Rendered emails/_email.html.erb (1.9ms)
+  Rendered emails/show.js.erb (3.7ms)
+Completed 200 OK in 93ms (Views: 5.8ms | ActiveRecord: 78.4ms)
+
+
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT pg_try_advisory_lock(4283054633658989685)[0m
+  ↳ bin/rails:9
+  [1m[35m (1.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ bin/rails:9
+  [1m[36mActiveRecord::InternalMetadata Load (0.4ms)[0m  [1m[34mSELECT  "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1 LIMIT $2[0m  [["key", "environment"], ["LIMIT", 1]]
+  ↳ bin/rails:9
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ bin/rails:9
+  [1m[35m (0.2ms)[0m  [1m[35mCOMMIT[0m
+  ↳ bin/rails:9
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT pg_advisory_unlock(4283054633658989685)[0m
+  ↳ bin/rails:9
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ bin/rails:9
+  [1m[35m (0.8ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ bin/rails:9
+  [1m[35m (0.8ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ bin/rails:9
+  [1m[35m (0.9ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ bin/rails:9
+  [1m[36mEmail Load (0.6ms)[0m  [1m[34mSELECT "emails".* FROM "emails"[0m
+  ↳ db/seeds.rb:9
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:9
+  [1m[36mEmail Destroy (0.7ms)[0m  [1m[31mDELETE FROM "emails" WHERE "emails"."id" = $1[0m  [["id", 1]]
+  ↳ db/seeds.rb:9
+  [1m[35m (15.0ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:9
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:9
+  [1m[36mEmail Destroy (0.5ms)[0m  [1m[31mDELETE FROM "emails" WHERE "emails"."id" = $1[0m  [["id", 2]]
+  ↳ db/seeds.rb:9
+  [1m[35m (9.8ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:9
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:9
+  [1m[36mEmail Destroy (0.4ms)[0m  [1m[31mDELETE FROM "emails" WHERE "emails"."id" = $1[0m  [["id", 3]]
+  ↳ db/seeds.rb:9
+  [1m[35m (10.2ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:9
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:9
+  [1m[36mEmail Destroy (0.6ms)[0m  [1m[31mDELETE FROM "emails" WHERE "emails"."id" = $1[0m  [["id", 4]]
+  ↳ db/seeds.rb:9
+  [1m[35m (9.6ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:9
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:9
+  [1m[36mEmail Destroy (0.5ms)[0m  [1m[31mDELETE FROM "emails" WHERE "emails"."id" = $1[0m  [["id", 5]]
+  ↳ db/seeds.rb:9
+  [1m[35m (9.9ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:9
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:9
+  [1m[36mEmail Destroy (0.5ms)[0m  [1m[31mDELETE FROM "emails" WHERE "emails"."id" = $1[0m  [["id", 6]]
+  ↳ db/seeds.rb:9
+  [1m[35m (10.0ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:9
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:9
+  [1m[36mEmail Destroy (0.5ms)[0m  [1m[31mDELETE FROM "emails" WHERE "emails"."id" = $1[0m  [["id", 7]]
+  ↳ db/seeds.rb:9
+  [1m[35m (9.6ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:9
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:9
+  [1m[36mEmail Destroy (0.6ms)[0m  [1m[31mDELETE FROM "emails" WHERE "emails"."id" = $1[0m  [["id", 8]]
+  ↳ db/seeds.rb:9
+  [1m[35m (9.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:9
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:9
+  [1m[36mEmail Destroy (0.4ms)[0m  [1m[31mDELETE FROM "emails" WHERE "emails"."id" = $1[0m  [["id", 10]]
+  ↳ db/seeds.rb:9
+  [1m[35m (10.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:9
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:9
+  [1m[36mEmail Destroy (0.6ms)[0m  [1m[31mDELETE FROM "emails" WHERE "emails"."id" = $1[0m  [["id", 9]]
+  ↳ db/seeds.rb:9
+  [1m[35m (9.5ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:9
+  [1m[35m (0.8ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ bin/rails:9
+  [1m[36mEmail Load (1.0ms)[0m  [1m[34mSELECT "emails".* FROM "emails"[0m
+  ↳ db/seeds.rb:9
+  [1m[35m (1.0ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ bin/rails:9
+  [1m[36mEmail Load (0.7ms)[0m  [1m[34mSELECT "emails".* FROM "emails"[0m
+  ↳ db/seeds.rb:9
+  [1m[35m (1.0ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ bin/rails:9
+  [1m[36mEmail Load (0.7ms)[0m  [1m[34mSELECT "emails".* FROM "emails"[0m
+  ↳ db/seeds.rb:9
+  [1m[35m (1.7ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ bin/rails:9
+  [1m[36mEmail Load (0.7ms)[0m  [1m[34mSELECT "emails".* FROM "emails"[0m
+  ↳ db/seeds.rb:9
+  [1m[35m (1.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ bin/rails:9
+  [1m[36mEmail Load (0.6ms)[0m  [1m[34mSELECT "emails".* FROM "emails"[0m
+  ↳ db/seeds.rb:9
+  [1m[35m (1.0ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ bin/rails:9
+  [1m[35m (1.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ bin/rails:9
+  [1m[35m (1.0ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ bin/rails:9
+  [1m[36mEmail Load (0.8ms)[0m  [1m[34mSELECT "emails".* FROM "emails"[0m
+  ↳ db/seeds.rb:9
+  [1m[35m (1.0ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ bin/rails:9
+  [1m[36mEmail Load (0.6ms)[0m  [1m[34mSELECT "emails".* FROM "emails"[0m
+  ↳ db/seeds.rb:9
+  [1m[35m (1.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ bin/rails:9
+  [1m[36mEmail Load (0.7ms)[0m  [1m[34mSELECT "emails".* FROM "emails"[0m
+  ↳ db/seeds.rb:9
+  [1m[35m (1.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ bin/rails:9
+  [1m[36mEmail Load (0.8ms)[0m  [1m[34mSELECT "emails".* FROM "emails"[0m
+  ↳ db/seeds.rb:9
+  [1m[35m (1.0ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ bin/rails:9
+  [1m[35m (0.9ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ bin/rails:9
+  [1m[36mEmail Load (0.8ms)[0m  [1m[34mSELECT "emails".* FROM "emails"[0m
+  ↳ db/seeds.rb:9
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/models/email.rb:3
+  [1m[36mEmail Create (1.0ms)[0m  [1m[32mINSERT INTO "emails" ("object", "body", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["object", "But I’d never thought in million years, that I’d meet someone dumb enough to go to prison for me."], ["body", "Sorry about the chains. It's not that I don't trust you, it's... Actually, it is that I don't trust you."], ["created_at", "2021-06-03 15:29:07.743555"], ["updated_at", "2021-06-03 15:29:07.743555"]]
+  ↳ app/models/email.rb:3
+  [1m[35m (19.2ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/models/email.rb:3
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/models/email.rb:3
+  [1m[36mEmail Create (0.6ms)[0m  [1m[32mINSERT INTO "emails" ("object", "body", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["object", "But I’d never thought in million years, that I’d meet someone dumb enough to go to prison for me."], ["body", "Well, isn't this usually the part where you... kick me in the head and run out, virtue fluttering?"], ["created_at", "2021-06-03 15:29:07.767122"], ["updated_at", "2021-06-03 15:29:07.767122"]]
+  ↳ app/models/email.rb:3
+  [1m[35m (8.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/models/email.rb:3
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/models/email.rb:3
+  [1m[36mEmail Create (0.5ms)[0m  [1m[32mINSERT INTO "emails" ("object", "body", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["object", "Thats the difference between you and me. You wanna lose small, I wanna win big."], ["body", "Sorry about the chains. It's not that I don't trust you, it's... Actually, it is that I don't trust you."], ["created_at", "2021-06-03 15:29:07.779156"], ["updated_at", "2021-06-03 15:29:07.779156"]]
+  ↳ app/models/email.rb:3
+  [1m[35m (8.7ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/models/email.rb:3
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/models/email.rb:3
+  [1m[36mEmail Create (0.4ms)[0m  [1m[32mINSERT INTO "emails" ("object", "body", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["object", "When you work with tigers, once in a while they are going to take a swipe at you."], ["body", "Well, isn't this usually the part where you... kick me in the head and run out, virtue fluttering?"], ["created_at", "2021-06-03 15:29:07.791263"], ["updated_at", "2021-06-03 15:29:07.791263"]]
+  ↳ app/models/email.rb:3
+  [1m[35m (8.3ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/models/email.rb:3
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/models/email.rb:3
+  [1m[36mEmail Create (0.4ms)[0m  [1m[32mINSERT INTO "emails" ("object", "body", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["object", "But I’d never thought in million years, that I’d meet someone dumb enough to go to prison for me."], ["body", "In every generation there is a chosen one."], ["created_at", "2021-06-03 15:29:07.803136"], ["updated_at", "2021-06-03 15:29:07.803136"]]
+  ↳ app/models/email.rb:3
+  [1m[35m (8.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/models/email.rb:3
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/models/email.rb:3
+  [1m[36mEmail Create (0.4ms)[0m  [1m[32mINSERT INTO "emails" ("object", "body", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["object", "Failure is a bruise, not a tattoo."], ["body", "Wow, it's like, one second you were this klutzy teenager with false memories and a history of kleptomania, and then suddenly you were a hero. A hero with a much abbreviated life span."], ["created_at", "2021-06-03 15:29:07.815361"], ["updated_at", "2021-06-03 15:29:07.815361"]]
+  ↳ app/models/email.rb:3
+  [1m[35m (8.2ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/models/email.rb:3
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/models/email.rb:3
+  [1m[36mEmail Create (0.4ms)[0m  [1m[32mINSERT INTO "emails" ("object", "body", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["object", "Thats the difference between you and me. You wanna lose small, I wanna win big."], ["body", "Strong is fighting. It's hard and it's painful, and it's every day. It's what we have to do. And we can do it together."], ["created_at", "2021-06-03 15:29:07.826916"], ["updated_at", "2021-06-03 15:29:07.826916"]]
+  ↳ app/models/email.rb:3
+  [1m[35m (8.8ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/models/email.rb:3
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/models/email.rb:3
+  [1m[36mEmail Create (0.4ms)[0m  [1m[32mINSERT INTO "emails" ("object", "body", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["object", "I’m Moby goddamn Dick, and you just swam in my waters"], ["body", "I'm leaning towards blind panic myself."], ["created_at", "2021-06-03 15:29:07.838797"], ["updated_at", "2021-06-03 15:29:07.838797"]]
+  ↳ app/models/email.rb:3
+  [1m[35m (9.1ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/models/email.rb:3
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/models/email.rb:3
+  [1m[36mEmail Create (0.6ms)[0m  [1m[32mINSERT INTO "emails" ("object", "body", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["object", "Thats the difference between you and me. You wanna lose small, I wanna win big."], ["body", "You know, I honestly don't think there's a human word fabulous enough for me."], ["created_at", "2021-06-03 15:29:07.851464"], ["updated_at", "2021-06-03 15:29:07.851464"]]
+  ↳ app/models/email.rb:3
+  [1m[35m (7.5ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/models/email.rb:3
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/models/email.rb:3
+  [1m[36mEmail Create (0.5ms)[0m  [1m[32mINSERT INTO "emails" ("object", "body", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["object", "When you’re backed against the wall, break the goddamn thing down."], ["body", "If the apocalypse comes, beep me."], ["created_at", "2021-06-03 15:29:07.863500"], ["updated_at", "2021-06-03 15:29:07.863500"]]
+  ↳ app/models/email.rb:3
+  [1m[35m (7.8ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/models/email.rb:3
+  [1m[35m (0.7ms)[0m  [1m[34mSELECT COUNT(*) FROM "emails"[0m
+  ↳ db/seeds.rb:14
+Started GET "/" for 127.0.0.1 at 2021-06-03 17:30:12 +0200
+  [1m[35m (1.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /home/celia/.rvm/gems/ruby-2.7.1/gems/activerecord-5.2.3/lib/active_record/log_subscriber.rb:98
+Processing by EmailsController#index as HTML
+  [1m[36mEmail Load (0.7ms)[0m  [1m[34mSELECT "emails".* FROM "emails"[0m
+  ↳ app/controllers/emails_controller.rb:14
+  Rendering emails/index.html.erb within layouts/application
+  Rendered collection of emails/_item.html.erb [10 times] (1.6ms)
+  Rendered emails/_list.html.erb (2.6ms)
+  Rendered emails/index.html.erb within layouts/application (7.2ms)
+  Rendered shared/_navbar.html.erb (10.6ms)
+  Rendered shared/_jumbotron.html.erb (0.6ms)
+  Rendered shared/_alerts.html.erb (0.6ms)
+  Rendered shared/_footer.html.erb (0.2ms)
+  Rendering layouts/main.html.erb
+  Rendered layouts/main.html.erb (308.7ms)
+Completed 200 OK in 364ms (Views: 336.8ms | ActiveRecord: 7.6ms)
+
+
+Started GET "/emails/20" for 127.0.0.1 at 2021-06-03 17:30:16 +0200
+Processing by EmailsController#show as JS
+  Parameters: {"id"=>"20"}
+  [1m[36mEmail Load (0.5ms)[0m  [1m[34mSELECT  "emails".* FROM "emails" WHERE "emails"."id" = $1 LIMIT $2[0m  [["id", 20], ["LIMIT", 1]]
+  ↳ app/controllers/emails_controller.rb:4
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/emails_controller.rb:5
+  [1m[36mEmail Update (0.5ms)[0m  [1m[33mUPDATE "emails" SET "read" = $1, "updated_at" = $2 WHERE "emails"."id" = $3[0m  [["read", true], ["updated_at", "2021-06-03 15:30:16.264253"], ["id", 20]]
+  ↳ app/controllers/emails_controller.rb:5
+  [1m[35m (62.0ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/emails_controller.rb:5
+  Rendering emails/show.js.erb
+  Rendered emails/_email.html.erb (3.6ms)
+  Rendered emails/show.js.erb (7.6ms)
+Completed 200 OK in 94ms (Views: 12.8ms | ActiveRecord: 63.6ms)
+
+
+Started GET "/emails/19" for 127.0.0.1 at 2021-06-03 17:30:18 +0200
+Processing by EmailsController#show as JS
+  Parameters: {"id"=>"19"}
+  [1m[36mEmail Load (2.4ms)[0m  [1m[34mSELECT  "emails".* FROM "emails" WHERE "emails"."id" = $1 LIMIT $2[0m  [["id", 19], ["LIMIT", 1]]
+  ↳ app/controllers/emails_controller.rb:4
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/emails_controller.rb:5
+  [1m[36mEmail Update (0.5ms)[0m  [1m[33mUPDATE "emails" SET "read" = $1, "updated_at" = $2 WHERE "emails"."id" = $3[0m  [["read", true], ["updated_at", "2021-06-03 15:30:18.745627"], ["id", 19]]
+  ↳ app/controllers/emails_controller.rb:5
+  [1m[35m (8.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/emails_controller.rb:5
+  Rendering emails/show.js.erb
+  Rendered emails/_email.html.erb (3.0ms)
+  Rendered emails/show.js.erb (6.4ms)
+Completed 200 OK in 34ms (Views: 13.0ms | ActiveRecord: 11.5ms)
+
+
+Started GET "/emails/18" for 127.0.0.1 at 2021-06-03 17:30:23 +0200
+Processing by EmailsController#show as JS
+  Parameters: {"id"=>"18"}
+  [1m[36mEmail Load (0.4ms)[0m  [1m[34mSELECT  "emails".* FROM "emails" WHERE "emails"."id" = $1 LIMIT $2[0m  [["id", 18], ["LIMIT", 1]]
+  ↳ app/controllers/emails_controller.rb:4
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/emails_controller.rb:5
+  [1m[36mEmail Update (0.6ms)[0m  [1m[33mUPDATE "emails" SET "read" = $1, "updated_at" = $2 WHERE "emails"."id" = $3[0m  [["read", true], ["updated_at", "2021-06-03 15:30:23.441315"], ["id", 18]]
+  ↳ app/controllers/emails_controller.rb:5
+  [1m[35m (15.0ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/emails_controller.rb:5
+  Rendering emails/show.js.erb
+  Rendered emails/_email.html.erb (1.1ms)
+  Rendered emails/show.js.erb (3.6ms)
+Completed 200 OK in 37ms (Views: 7.5ms | ActiveRecord: 16.2ms)
+
+
+  [1m[35m (1.0ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ bin/rails:9
+  [1m[36mEmail Load (0.9ms)[0m  [1m[34mSELECT "emails".* FROM "emails"[0m
+  ↳ db/seeds.rb:9
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:9
+  [1m[36mEmail Destroy (0.7ms)[0m  [1m[31mDELETE FROM "emails" WHERE "emails"."id" = $1[0m  [["id", 11]]
+  ↳ db/seeds.rb:9
+  [1m[35m (20.6ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:9
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:9
+  [1m[36mEmail Destroy (0.5ms)[0m  [1m[31mDELETE FROM "emails" WHERE "emails"."id" = $1[0m  [["id", 12]]
+  ↳ db/seeds.rb:9
+  [1m[35m (11.1ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:9
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:9
+  [1m[36mEmail Destroy (0.5ms)[0m  [1m[31mDELETE FROM "emails" WHERE "emails"."id" = $1[0m  [["id", 13]]
+  ↳ db/seeds.rb:9
+  [1m[35m (7.8ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:9
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:9
+  [1m[36mEmail Destroy (0.4ms)[0m  [1m[31mDELETE FROM "emails" WHERE "emails"."id" = $1[0m  [["id", 14]]
+  ↳ db/seeds.rb:9
+  [1m[35m (10.1ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:9
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:9
+  [1m[36mEmail Destroy (0.5ms)[0m  [1m[31mDELETE FROM "emails" WHERE "emails"."id" = $1[0m  [["id", 15]]
+  ↳ db/seeds.rb:9
+  [1m[35m (9.7ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:9
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:9
+  [1m[36mEmail Destroy (0.4ms)[0m  [1m[31mDELETE FROM "emails" WHERE "emails"."id" = $1[0m  [["id", 16]]
+  ↳ db/seeds.rb:9
+  [1m[35m (9.8ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:9
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:9
+  [1m[36mEmail Destroy (0.5ms)[0m  [1m[31mDELETE FROM "emails" WHERE "emails"."id" = $1[0m  [["id", 17]]
+  ↳ db/seeds.rb:9
+  [1m[35m (9.8ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:9
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:9
+  [1m[36mEmail Destroy (0.5ms)[0m  [1m[31mDELETE FROM "emails" WHERE "emails"."id" = $1[0m  [["id", 20]]
+  ↳ db/seeds.rb:9
+  [1m[35m (9.6ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:9
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:9
+  [1m[36mEmail Destroy (0.5ms)[0m  [1m[31mDELETE FROM "emails" WHERE "emails"."id" = $1[0m  [["id", 19]]
+  ↳ db/seeds.rb:9
+  [1m[35m (9.8ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:9
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:9
+  [1m[36mEmail Destroy (0.4ms)[0m  [1m[31mDELETE FROM "emails" WHERE "emails"."id" = $1[0m  [["id", 18]]
+  ↳ db/seeds.rb:9
+  [1m[35m (9.5ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:9
+  [1m[35m (1.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ bin/rails:9
+  [1m[36mEmail Load (0.7ms)[0m  [1m[34mSELECT "emails".* FROM "emails"[0m
+  ↳ db/seeds.rb:9
+  [1m[35m (1.5ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ bin/rails:9
+  [1m[36mEmail Load (0.7ms)[0m  [1m[34mSELECT "emails".* FROM "emails"[0m
+  ↳ db/seeds.rb:9
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT pg_try_advisory_lock(4283054633658989685)[0m
+  ↳ bin/rails:9
+  [1m[35m (1.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ bin/rails:9
+  [1m[36mActiveRecord::InternalMetadata Load (0.6ms)[0m  [1m[34mSELECT  "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1 LIMIT $2[0m  [["key", "environment"], ["LIMIT", 1]]
+  ↳ bin/rails:9
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ bin/rails:9
+  [1m[35m (0.2ms)[0m  [1m[35mCOMMIT[0m
+  ↳ bin/rails:9
+  [1m[35m (0.6ms)[0m  [1m[34mSELECT pg_advisory_unlock(4283054633658989685)[0m
+  ↳ bin/rails:9
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ bin/rails:9
+  [1m[35m (0.9ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ bin/rails:9
+  [1m[36mEmail Load (0.7ms)[0m  [1m[34mSELECT "emails".* FROM "emails"[0m
+  ↳ db/seeds.rb:9
+  [1m[35m (0.9ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ bin/rails:9
+  [1m[36mEmail Load (0.9ms)[0m  [1m[34mSELECT "emails".* FROM "emails"[0m
+  ↳ db/seeds.rb:9
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/models/email.rb:3
+  [1m[36mEmail Create (0.7ms)[0m  [1m[32mINSERT INTO "emails" ("object", "body", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["object", "I’m Moby goddamn Dick, and you just swam in my waters"], ["body", "Bunk beds are cool, a bed with a ladder, you can't beat that!"], ["created_at", "2021-06-03 15:44:06.900038"], ["updated_at", "2021-06-03 15:44:06.900038"]]
+  ↳ app/models/email.rb:3
+  [1m[35m (17.7ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/models/email.rb:3
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/models/email.rb:3
+  [1m[36mEmail Create (0.3ms)[0m  [1m[32mINSERT INTO "emails" ("object", "body", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["object", "When you’re backed against the wall, break the goddamn thing down."], ["body", "Your wish is my command. But be careful what you wish for."], ["created_at", "2021-06-03 15:44:06.921757"], ["updated_at", "2021-06-03 15:44:06.921757"]]
+  ↳ app/models/email.rb:3
+  [1m[35m (8.5ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/models/email.rb:3
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/models/email.rb:3
+  [1m[36mEmail Create (0.5ms)[0m  [1m[32mINSERT INTO "emails" ("object", "body", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["object", "I don't play the odds, I play the man."], ["body", "See the bowtie? I wear it and I don't care. That's why it's cool."], ["created_at", "2021-06-03 15:44:06.933790"], ["updated_at", "2021-06-03 15:44:06.933790"]]
+  ↳ app/models/email.rb:3
+  [1m[35m (8.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/models/email.rb:3
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/models/email.rb:3
+  [1m[36mEmail Create (0.5ms)[0m  [1m[32mINSERT INTO "emails" ("object", "body", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["object", "I’m Moby goddamn Dick, and you just swam in my waters"], ["body", "If we're gonna die, let's die looking like a Peruvian folk band."], ["created_at", "2021-06-03 15:44:06.945514"], ["updated_at", "2021-06-03 15:44:06.945514"]]
+  ↳ app/models/email.rb:3
+  [1m[35m (8.6ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/models/email.rb:3
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/models/email.rb:3
+  [1m[36mEmail Create (0.5ms)[0m  [1m[32mINSERT INTO "emails" ("object", "body", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["object", "I am sorry I don't have photographic memory, but my brain is too busy being awesome."], ["body", "Come on, Rory! It isn't rocket science, it's just quantum physics!"], ["created_at", "2021-06-03 15:44:06.958321"], ["updated_at", "2021-06-03 15:44:06.958321"]]
+  ↳ app/models/email.rb:3
+  [1m[35m (7.5ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/models/email.rb:3
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/models/email.rb:3
+  [1m[36mEmail Create (0.5ms)[0m  [1m[32mINSERT INTO "emails" ("object", "body", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["object", "When you work with tigers, once in a while they are going to take a swipe at you."], ["body", "Come on, Rory! It isn't rocket science, it's just quantum physics!"], ["created_at", "2021-06-03 15:44:06.969670"], ["updated_at", "2021-06-03 15:44:06.969670"]]
+  ↳ app/models/email.rb:3
+  [1m[35m (8.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/models/email.rb:3
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/models/email.rb:3
+  [1m[36mEmail Create (0.5ms)[0m  [1m[32mINSERT INTO "emails" ("object", "body", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["object", "Don't raise your voice. Improve your argument."], ["body", "A straight line may be the shortest distance between two points, but it is by no means the most interesting."], ["created_at", "2021-06-03 15:44:06.981934"], ["updated_at", "2021-06-03 15:44:06.981934"]]
+  ↳ app/models/email.rb:3
+  [1m[35m (7.9ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/models/email.rb:3
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/models/email.rb:3
+  [1m[36mEmail Create (0.5ms)[0m  [1m[32mINSERT INTO "emails" ("object", "body", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["object", "But I’d never thought in million years, that I’d meet someone dumb enough to go to prison for me."], ["body", "Your wish is my command. But be careful what you wish for."], ["created_at", "2021-06-03 15:44:06.993940"], ["updated_at", "2021-06-03 15:44:06.993940"]]
+  ↳ app/models/email.rb:3
+  [1m[35m (7.8ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/models/email.rb:3
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/models/email.rb:3
+  [1m[36mEmail Create (1.0ms)[0m  [1m[32mINSERT INTO "emails" ("object", "body", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["object", "I am sorry I don't have photographic memory, but my brain is too busy being awesome."], ["body", "Crossing into established events is strictly forbidden. Except for cheap tricks."], ["created_at", "2021-06-03 15:44:07.005892"], ["updated_at", "2021-06-03 15:44:07.005892"]]
+  ↳ app/models/email.rb:3
+  [1m[35m (6.5ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/models/email.rb:3
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/models/email.rb:3
+  [1m[36mEmail Create (0.4ms)[0m  [1m[32mINSERT INTO "emails" ("object", "body", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["object", "The only time success comes before work is in the dictionary."], ["body", "The universe is big. It’s vast and complicated and ridiculous. And sometimes, very rarely, impossible things just happen and we call them miracles."], ["created_at", "2021-06-03 15:44:07.017614"], ["updated_at", "2021-06-03 15:44:07.017614"]]
+  ↳ app/models/email.rb:3
+  [1m[35m (8.8ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/models/email.rb:3
+  [1m[35m (0.7ms)[0m  [1m[34mSELECT COUNT(*) FROM "emails"[0m
+  ↳ db/seeds.rb:14
+Started GET "/" for 127.0.0.1 at 2021-06-03 17:45:38 +0200
+  [1m[35m (1.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /home/celia/.rvm/gems/ruby-2.7.1/gems/activerecord-5.2.3/lib/active_record/log_subscriber.rb:98
+Processing by EmailsController#index as HTML
+  [1m[36mEmail Load (0.8ms)[0m  [1m[34mSELECT "emails".* FROM "emails"[0m
+  ↳ app/controllers/emails_controller.rb:14
+  Rendering emails/index.html.erb within layouts/application
+  Rendered collection of emails/_item.html.erb [10 times] (2.6ms)
+  Rendered emails/_list.html.erb (4.2ms)
+  Rendered emails/index.html.erb within layouts/application (11.2ms)
+  Rendered shared/_navbar.html.erb (8.1ms)
+  Rendered shared/_jumbotron.html.erb (0.3ms)
+  Rendered shared/_alerts.html.erb (0.4ms)
+  Rendered shared/_footer.html.erb (0.3ms)
+  Rendering layouts/main.html.erb
+  Rendered layouts/main.html.erb (276.5ms)
+Completed 200 OK in 326ms (Views: 305.7ms | ActiveRecord: 5.5ms)
+
+
+Started GET "/emails/29" for 127.0.0.1 at 2021-06-03 17:45:42 +0200
+Processing by EmailsController#show as JS
+  Parameters: {"id"=>"29"}
+  [1m[36mEmail Load (0.5ms)[0m  [1m[34mSELECT  "emails".* FROM "emails" WHERE "emails"."id" = $1 LIMIT $2[0m  [["id", 29], ["LIMIT", 1]]
+  ↳ app/controllers/emails_controller.rb:4
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/emails_controller.rb:5
+  [1m[36mEmail Update (0.7ms)[0m  [1m[33mUPDATE "emails" SET "read" = $1, "updated_at" = $2 WHERE "emails"."id" = $3[0m  [["read", true], ["updated_at", "2021-06-03 15:45:42.488647"], ["id", 29]]
+  ↳ app/controllers/emails_controller.rb:5
+  [1m[35m (41.0ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/emails_controller.rb:5
+  Rendering emails/show.js.erb
+  Rendered emails/_email.html.erb (2.6ms)
+  Rendered emails/show.js.erb (5.5ms)
+Completed 200 OK in 66ms (Views: 11.0ms | ActiveRecord: 42.7ms)
+
+
+Started GET "/emails/28" for 127.0.0.1 at 2021-06-03 17:45:54 +0200
+Processing by EmailsController#show as JS
+  Parameters: {"id"=>"28"}
+  [1m[36mEmail Load (0.5ms)[0m  [1m[34mSELECT  "emails".* FROM "emails" WHERE "emails"."id" = $1 LIMIT $2[0m  [["id", 28], ["LIMIT", 1]]
+  ↳ app/controllers/emails_controller.rb:4
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/emails_controller.rb:5
+  [1m[36mEmail Update (1.0ms)[0m  [1m[33mUPDATE "emails" SET "read" = $1, "updated_at" = $2 WHERE "emails"."id" = $3[0m  [["read", true], ["updated_at", "2021-06-03 15:45:54.837799"], ["id", 28]]
+  ↳ app/controllers/emails_controller.rb:5
+  [1m[35m (16.0ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/emails_controller.rb:5
+  Rendering emails/show.js.erb
+  Rendered emails/_email.html.erb (3.7ms)
+  Rendered emails/show.js.erb (7.2ms)
+Completed 200 OK in 43ms (Views: 14.6ms | ActiveRecord: 17.7ms)
+
+
+Started GET "/emails/30" for 127.0.0.1 at 2021-06-03 17:46:00 +0200
+Processing by EmailsController#show as JS
+  Parameters: {"id"=>"30"}
+  [1m[36mEmail Load (0.5ms)[0m  [1m[34mSELECT  "emails".* FROM "emails" WHERE "emails"."id" = $1 LIMIT $2[0m  [["id", 30], ["LIMIT", 1]]
+  ↳ app/controllers/emails_controller.rb:4
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/emails_controller.rb:5
+  [1m[36mEmail Update (0.5ms)[0m  [1m[33mUPDATE "emails" SET "read" = $1, "updated_at" = $2 WHERE "emails"."id" = $3[0m  [["read", true], ["updated_at", "2021-06-03 15:46:00.330720"], ["id", 30]]
+  ↳ app/controllers/emails_controller.rb:5
+  [1m[35m (19.8ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/emails_controller.rb:5
+  Rendering emails/show.js.erb
+  Rendered emails/_email.html.erb (2.3ms)
+  Rendered emails/show.js.erb (4.7ms)
+Completed 200 OK in 48ms (Views: 17.4ms | ActiveRecord: 21.0ms)
+
+
+Started GET "/emails/27" for 127.0.0.1 at 2021-06-03 17:46:09 +0200
+Processing by EmailsController#show as JS
+  Parameters: {"id"=>"27"}
+  [1m[36mEmail Load (0.4ms)[0m  [1m[34mSELECT  "emails".* FROM "emails" WHERE "emails"."id" = $1 LIMIT $2[0m  [["id", 27], ["LIMIT", 1]]
+  ↳ app/controllers/emails_controller.rb:4
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/emails_controller.rb:5
+  [1m[36mEmail Update (0.5ms)[0m  [1m[33mUPDATE "emails" SET "read" = $1, "updated_at" = $2 WHERE "emails"."id" = $3[0m  [["read", true], ["updated_at", "2021-06-03 15:46:09.683591"], ["id", 27]]
+  ↳ app/controllers/emails_controller.rb:5
+  [1m[35m (16.3ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/emails_controller.rb:5
+  Rendering emails/show.js.erb
+  Rendered emails/_email.html.erb (2.6ms)
+  Rendered emails/show.js.erb (4.8ms)
+Completed 200 OK in 35ms (Views: 10.9ms | ActiveRecord: 17.4ms)
+
+
+  [1m[35m (0.9ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ bin/rails:9
+  [1m[36mEmail Load (1.0ms)[0m  [1m[34mSELECT "emails".* FROM "emails"[0m
+  ↳ db/seeds.rb:9
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:9
+  [1m[36mEmail Destroy (0.8ms)[0m  [1m[31mDELETE FROM "emails" WHERE "emails"."id" = $1[0m  [["id", 29]]
+  ↳ db/seeds.rb:9
+  [1m[35m (20.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:9
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:9
+  [1m[36mEmail Destroy (0.4ms)[0m  [1m[31mDELETE FROM "emails" WHERE "emails"."id" = $1[0m  [["id", 28]]
+  ↳ db/seeds.rb:9
+  [1m[35m (9.8ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:9
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:9
+  [1m[36mEmail Destroy (0.3ms)[0m  [1m[31mDELETE FROM "emails" WHERE "emails"."id" = $1[0m  [["id", 30]]
+  ↳ db/seeds.rb:9
+  [1m[35m (10.0ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:9
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:9
+  [1m[36mEmail Destroy (0.4ms)[0m  [1m[31mDELETE FROM "emails" WHERE "emails"."id" = $1[0m  [["id", 27]]
+  ↳ db/seeds.rb:9
+  [1m[35m (9.5ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:9
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:9
+  [1m[36mEmail Destroy (0.4ms)[0m  [1m[31mDELETE FROM "emails" WHERE "emails"."id" = $1[0m  [["id", 21]]
+  ↳ db/seeds.rb:9
+  [1m[35m (9.8ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:9
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:9
+  [1m[36mEmail Destroy (0.4ms)[0m  [1m[31mDELETE FROM "emails" WHERE "emails"."id" = $1[0m  [["id", 22]]
+  ↳ db/seeds.rb:9
+  [1m[35m (9.8ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:9
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:9
+  [1m[36mEmail Destroy (0.4ms)[0m  [1m[31mDELETE FROM "emails" WHERE "emails"."id" = $1[0m  [["id", 23]]
+  ↳ db/seeds.rb:9
+  [1m[35m (9.9ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:9
+  [1m[35m (0.6ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:9
+  [1m[36mEmail Destroy (0.5ms)[0m  [1m[31mDELETE FROM "emails" WHERE "emails"."id" = $1[0m  [["id", 24]]
+  ↳ db/seeds.rb:9
+  [1m[35m (9.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:9
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:9
+  [1m[36mEmail Destroy (0.4ms)[0m  [1m[31mDELETE FROM "emails" WHERE "emails"."id" = $1[0m  [["id", 25]]
+  ↳ db/seeds.rb:9
+  [1m[35m (10.2ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:9
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:9
+  [1m[36mEmail Destroy (0.4ms)[0m  [1m[31mDELETE FROM "emails" WHERE "emails"."id" = $1[0m  [["id", 26]]
+  ↳ db/seeds.rb:9
+  [1m[35m (9.9ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:9
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/models/email.rb:3
+  [1m[36mEmail Create (0.7ms)[0m  [1m[32mINSERT INTO "emails" ("object", "body", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["object", "I don't play the odds, I play the man."], ["body", "I've hired you to help me start a war. It's an prestigious line of work, with a long and glorious tradition."], ["created_at", "2021-06-03 15:48:49.684391"], ["updated_at", "2021-06-03 15:48:49.684391"]]
+  ↳ app/models/email.rb:3
+  [1m[35m (32.3ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/models/email.rb:3
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/models/email.rb:3
+  [1m[36mEmail Create (0.5ms)[0m  [1m[32mINSERT INTO "emails" ("object", "body", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["object", "You just got Litt up!"], ["body", "I do not think you would accept my help, since I am only waiting around to kill you."], ["created_at", "2021-06-03 15:48:49.721568"], ["updated_at", "2021-06-03 15:48:49.721568"]]
+  ↳ app/models/email.rb:3
+  [1m[35m (7.1ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/models/email.rb:3
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/models/email.rb:3
+  [1m[36mEmail Create (0.5ms)[0m  [1m[32mINSERT INTO "emails" ("object", "body", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["object", "Sometimes good is not good enough."], ["body", "Are you coming down into the pit? Westly's got his strength back, I'm starting him on the machine tonight."], ["created_at", "2021-06-03 15:48:49.732650"], ["updated_at", "2021-06-03 15:48:49.732650"]]
+  ↳ app/models/email.rb:3
+  [1m[35m (8.1ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/models/email.rb:3
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/models/email.rb:3
+  [1m[36mEmail Create (0.5ms)[0m  [1m[32mINSERT INTO "emails" ("object", "body", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["object", "When you’re backed against the wall, break the goddamn thing down."], ["body", "Do you have 6 fingers on your left hand?"], ["created_at", "2021-06-03 15:48:49.744838"], ["updated_at", "2021-06-03 15:48:49.744838"]]
+  ↳ app/models/email.rb:3
+  [1m[35m (8.0ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/models/email.rb:3
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/models/email.rb:3
+  [1m[36mEmail Create (0.5ms)[0m  [1m[32mINSERT INTO "emails" ("object", "body", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["object", "Thats the difference between you and me. You wanna lose small, I wanna win big."], ["body", "Life is pain. Anyone who says different is trying to sell you something."], ["created_at", "2021-06-03 15:48:49.756441"], ["updated_at", "2021-06-03 15:48:49.756441"]]
+  ↳ app/models/email.rb:3
+  [1m[35m (8.5ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/models/email.rb:3
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/models/email.rb:3
+  [1m[36mEmail Create (0.4ms)[0m  [1m[32mINSERT INTO "emails" ("object", "body", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["object", "I’m Donna. I know everything."], ["body", "He is only mostly dead. Not all dead. You can bring them back to life if they are only mostly dead. Now, give me that stick."], ["created_at", "2021-06-03 15:48:49.768244"], ["updated_at", "2021-06-03 15:48:49.768244"]]
+  ↳ app/models/email.rb:3
+  [1m[35m (8.9ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/models/email.rb:3
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/models/email.rb:3
+  [1m[36mEmail Create (0.4ms)[0m  [1m[32mINSERT INTO "emails" ("object", "body", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["object", "Sometimes good is not good enough."], ["body", "I do not think you would accept my help, since I am only waiting around to kill you."], ["created_at", "2021-06-03 15:48:49.780064"], ["updated_at", "2021-06-03 15:48:49.780064"]]
+  ↳ app/models/email.rb:3
+  [1m[35m (9.1ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/models/email.rb:3
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/models/email.rb:3
+  [1m[36mEmail Create (0.4ms)[0m  [1m[32mINSERT INTO "emails" ("object", "body", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["object", "Don't raise your voice. Improve your argument."], ["body", "Do you have 6 fingers on your left hand?"], ["created_at", "2021-06-03 15:48:49.792549"], ["updated_at", "2021-06-03 15:48:49.792549"]]
+  ↳ app/models/email.rb:3
+  [1m[35m (8.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/models/email.rb:3
+  [1m[35m (0.4ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/models/email.rb:3
+  [1m[36mEmail Create (0.4ms)[0m  [1m[32mINSERT INTO "emails" ("object", "body", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["object", "Failure is a bruise, not a tattoo."], ["body", "As you wish."], ["created_at", "2021-06-03 15:48:49.804392"], ["updated_at", "2021-06-03 15:48:49.804392"]]
+  ↳ app/models/email.rb:3
+  [1m[35m (8.8ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/models/email.rb:3
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/models/email.rb:3
+  [1m[36mEmail Create (0.5ms)[0m  [1m[32mINSERT INTO "emails" ("object", "body", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["object", "I don't have dreams, I have goals."], ["body", "Ha ha, you fool! You fell victim to one of the classic blunders! The most famous of which is never get involved in a land war in Asia, but only slightly less well-known is this: Never go in against a Sicilian when DEATH is on the line."], ["created_at", "2021-06-03 15:48:49.816082"], ["updated_at", "2021-06-03 15:48:49.816082"]]
+  ↳ app/models/email.rb:3
+  [1m[35m (9.1ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/models/email.rb:3
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT COUNT(*) FROM "emails"[0m
+  ↳ db/seeds.rb:14
+Started GET "/" for 127.0.0.1 at 2021-06-03 17:49:45 +0200
+  [1m[35m (0.6ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /home/celia/.rvm/gems/ruby-2.7.1/gems/activerecord-5.2.3/lib/active_record/log_subscriber.rb:98
+Processing by EmailsController#index as HTML
+  [1m[36mEmail Load (1.0ms)[0m  [1m[34mSELECT "emails".* FROM "emails"[0m
+  ↳ app/controllers/emails_controller.rb:14
+  Rendering emails/index.html.erb within layouts/application
+  Rendered collection of emails/_item.html.erb [10 times] (1.7ms)
+  Rendered emails/_list.html.erb (2.6ms)
+  Rendered emails/index.html.erb within layouts/application (8.7ms)
+  Rendered shared/_navbar.html.erb (8.8ms)
+  Rendered shared/_jumbotron.html.erb (0.4ms)
+  Rendered shared/_alerts.html.erb (0.4ms)
+  Rendered shared/_footer.html.erb (0.2ms)
+  Rendering layouts/main.html.erb
+  Rendered layouts/main.html.erb (287.9ms)
+Completed 200 OK in 336ms (Views: 314.2ms | ActiveRecord: 6.7ms)
+
+
+Started GET "/emails/39" for 127.0.0.1 at 2021-06-03 17:49:48 +0200
+Processing by EmailsController#show as JS
+  Parameters: {"id"=>"39"}
+  [1m[36mEmail Load (0.7ms)[0m  [1m[34mSELECT  "emails".* FROM "emails" WHERE "emails"."id" = $1 LIMIT $2[0m  [["id", 39], ["LIMIT", 1]]
+  ↳ app/controllers/emails_controller.rb:4
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/emails_controller.rb:5
+  [1m[36mEmail Update (1.5ms)[0m  [1m[33mUPDATE "emails" SET "read" = $1, "updated_at" = $2 WHERE "emails"."id" = $3[0m  [["read", true], ["updated_at", "2021-06-03 15:49:48.989565"], ["id", 39]]
+  ↳ app/controllers/emails_controller.rb:5
+  [1m[35m (82.5ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/emails_controller.rb:5
+  Rendering emails/show.js.erb
+  Rendered emails/_email.html.erb (2.5ms)
+  Rendered emails/show.js.erb (5.6ms)
+Completed 200 OK in 119ms (Views: 12.7ms | ActiveRecord: 86.0ms)
+
+
+Started GET "/emails/38" for 127.0.0.1 at 2021-06-03 17:49:54 +0200
+Processing by EmailsController#show as JS
+  Parameters: {"id"=>"38"}
+  [1m[36mEmail Load (0.5ms)[0m  [1m[34mSELECT  "emails".* FROM "emails" WHERE "emails"."id" = $1 LIMIT $2[0m  [["id", 38], ["LIMIT", 1]]
+  ↳ app/controllers/emails_controller.rb:4
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/emails_controller.rb:5
+  [1m[36mEmail Update (0.4ms)[0m  [1m[33mUPDATE "emails" SET "read" = $1, "updated_at" = $2 WHERE "emails"."id" = $3[0m  [["read", true], ["updated_at", "2021-06-03 15:49:54.264076"], ["id", 38]]
+  ↳ app/controllers/emails_controller.rb:5
+  [1m[35m (34.6ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/emails_controller.rb:5
+  Rendering emails/show.js.erb
+  Rendered emails/_email.html.erb (3.7ms)
+  Rendered emails/show.js.erb (8.4ms)
+Completed 200 OK in 61ms (Views: 14.0ms | ActiveRecord: 35.7ms)
+
+
+Started GET "/emails/37" for 127.0.0.1 at 2021-06-03 17:49:58 +0200
+Processing by EmailsController#show as JS
+  Parameters: {"id"=>"37"}
+  [1m[36mEmail Load (0.5ms)[0m  [1m[34mSELECT  "emails".* FROM "emails" WHERE "emails"."id" = $1 LIMIT $2[0m  [["id", 37], ["LIMIT", 1]]
+  ↳ app/controllers/emails_controller.rb:4
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/emails_controller.rb:5
+  [1m[36mEmail Update (0.4ms)[0m  [1m[33mUPDATE "emails" SET "read" = $1, "updated_at" = $2 WHERE "emails"."id" = $3[0m  [["read", true], ["updated_at", "2021-06-03 15:49:58.153665"], ["id", 37]]
+  ↳ app/controllers/emails_controller.rb:5
+  [1m[35m (33.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/emails_controller.rb:5
+  Rendering emails/show.js.erb
+  Rendered emails/_email.html.erb (9.0ms)
+  Rendered emails/show.js.erb (10.9ms)
+Completed 200 OK in 61ms (Views: 18.3ms | ActiveRecord: 34.5ms)
+
+
+Started GET "/emails/36" for 127.0.0.1 at 2021-06-03 17:50:07 +0200
+Processing by EmailsController#show as JS
+  Parameters: {"id"=>"36"}
+  [1m[36mEmail Load (0.6ms)[0m  [1m[34mSELECT  "emails".* FROM "emails" WHERE "emails"."id" = $1 LIMIT $2[0m  [["id", 36], ["LIMIT", 1]]
+  ↳ app/controllers/emails_controller.rb:4
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/emails_controller.rb:5
+  [1m[36mEmail Update (0.8ms)[0m  [1m[33mUPDATE "emails" SET "read" = $1, "updated_at" = $2 WHERE "emails"."id" = $3[0m  [["read", true], ["updated_at", "2021-06-03 15:50:07.655113"], ["id", 36]]
+  ↳ app/controllers/emails_controller.rb:5
+  [1m[35m (47.6ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/emails_controller.rb:5
+  Rendering emails/show.js.erb
+  Rendered emails/_email.html.erb (2.7ms)
+  Rendered emails/show.js.erb (5.7ms)
+Completed 200 OK in 65ms (Views: 8.5ms | ActiveRecord: 49.1ms)
+
+
+Started GET "/emails/34" for 127.0.0.1 at 2021-06-03 21:56:42 +0200
+Processing by EmailsController#show as JS
+  Parameters: {"id"=>"34"}
+  [1m[36mEmail Load (0.5ms)[0m  [1m[34mSELECT  "emails".* FROM "emails" WHERE "emails"."id" = $1 LIMIT $2[0m  [["id", 34], ["LIMIT", 1]]
+  ↳ app/controllers/emails_controller.rb:4
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/emails_controller.rb:5
+  [1m[36mEmail Update (0.4ms)[0m  [1m[33mUPDATE "emails" SET "read" = $1, "updated_at" = $2 WHERE "emails"."id" = $3[0m  [["read", true], ["updated_at", "2021-06-03 19:56:42.347472"], ["id", 34]]
+  ↳ app/controllers/emails_controller.rb:5
+  [1m[35m (20.6ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/emails_controller.rb:5
+  Rendering emails/show.js.erb
+  Rendered emails/_email.html.erb (1.8ms)
+  Rendered emails/show.js.erb (4.0ms)
+Completed 200 OK in 36ms (Views: 8.1ms | ActiveRecord: 21.9ms)
+
+
+Started GET "/emails/38" for 127.0.0.1 at 2021-06-03 21:56:46 +0200
+Processing by EmailsController#show as JS
+  Parameters: {"id"=>"38"}
+  [1m[36mEmail Load (0.4ms)[0m  [1m[34mSELECT  "emails".* FROM "emails" WHERE "emails"."id" = $1 LIMIT $2[0m  [["id", 38], ["LIMIT", 1]]
+  ↳ app/controllers/emails_controller.rb:4
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/emails_controller.rb:5
+  [1m[35m (0.1ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/emails_controller.rb:5
+  Rendering emails/show.js.erb
+  Rendered emails/_email.html.erb (1.4ms)
+  Rendered emails/show.js.erb (3.4ms)
+Completed 200 OK in 11ms (Views: 6.1ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/emails/39" for 127.0.0.1 at 2021-06-03 21:56:47 +0200
+Processing by EmailsController#show as JS
+  Parameters: {"id"=>"39"}
+  [1m[36mEmail Load (0.5ms)[0m  [1m[34mSELECT  "emails".* FROM "emails" WHERE "emails"."id" = $1 LIMIT $2[0m  [["id", 39], ["LIMIT", 1]]
+  ↳ app/controllers/emails_controller.rb:4
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/emails_controller.rb:5
+  [1m[35m (0.1ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/emails_controller.rb:5
+  Rendering emails/show.js.erb
+  Rendered emails/_email.html.erb (1.6ms)
+  Rendered emails/show.js.erb (3.3ms)
+Completed 200 OK in 11ms (Views: 6.4ms | ActiveRecord: 0.7ms)
+
+

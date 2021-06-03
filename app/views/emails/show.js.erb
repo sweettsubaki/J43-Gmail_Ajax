@@ -1,0 +1,5 @@
+putHtmlInPageContent("<%= j render partial: 'email', locals: {email: @email, remote: true} %>")
+
+addSelectedClass("<%= @email.id %>")
+
+addReadStatusClass("<%= @email.id %>", "<%= @email.read_status %>")
